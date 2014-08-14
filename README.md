@@ -1,4 +1,4 @@
 FreifunkMonitoringAPI
 =====================
 
-new better freifunk API
+new better freifunk API for the whole world...
