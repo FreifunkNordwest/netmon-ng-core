@@ -1,0 +1,64 @@
+{
+	"_id": "3f667d6dfb498947e4c365d74900529f",
+	"_rev": "3-37410011998c58fefb630bcb7d566f9e",
+	
+	"ctime": "2013-05-11T13:05:22.000Z",
+	"mtime": "2013-09-12T11:14:12.000Z",
+	
+	"type": "router",
+	"api_rev": "1.0.0",
+	
+	"hostname": "awesome-router",
+	"site": "roof town hall",
+	"community": "Freifunk/Berlin",
+		
+	"lat": -31.805412,
+	"lon": -64.424677,
+	"elev": 50,
+	
+	"aliases": [
+		{
+			"type": "olsr",
+			"alias": "104.201.0.29"
+
+		},
+		{
+			"type": "olsr",
+			"alias": "awesome-router.olsr"
+		},
+		{
+			"type": "batman-adv",
+			"alias": "21:13:f1:a5:a2:20"
+		}
+	],
+	
+	"links": [
+		{
+			"type": "olsr",
+			"alias_local": "104.201.0.29",
+			"alias_remote": "104.201.0.64",
+			"quality": 0.78,
+			"attributes": {
+				"etx": 2.094,
+				"lq": 0.588,
+				"nlq": 0.812
+			}
+		},
+		{
+			"type": "batman-adv",
+			"alias_local":"21:13:f1:a5:a2:20",
+			"alias_remote": "52:23:61:a7:a1:56",
+			"quality": 0.78
+		}
+	],
+	
+	"attributes": {
+		
+		"firmware": {
+			"name": "meshkit",
+			"rev": "47d69e2001a789a104117af266332c73919b4326",
+			"url": "http://meshkit.freifunk.net/"
+		}
+
+	}
+}
