@@ -42,6 +42,42 @@ Bestehende Versionen werden nicht mehr geändert.
 API
 ===
 
+API-Key
+--------
+Der API-Key besteht aus einer beliebigen eindeutigen Zeichenfolge und dient als Nachweis der Berechtigung eines Geräts oder einer Person eine bestimmte Aktion an der API durchführen zu dürfen.
+Der API-Key bildet daher das zentrale Element der Applikation mit dem alle Objekte direkt oder indirekt verknüpft sein müssen und dessen Berechtigung mit jeder Interaktion geprüft werden muss.
+
+Siehe auch: [https://en.wikipedia.org/wiki/Application_programming_interface_key]
+
+Anlegen eines neuen API-Keys
+---------
+Grundsätzlich kann an der API immer ein neuer API-Key mit einem Standardberechtigungslevel angefordert werden das die Erledigung von Grundaufgaben ermöglicht. Gehen wir davon aus, dass mehrere Berechtigungslevel existieren (z.B. Administrator und Benutzer) so sollte das Standardberechtigungslevel "Benutzer" sein. Dieses Berechtigungslevel sollte alle Aktionen erlauben von denen nur die Objekte des eigenen API-Keys und nicht die Objekte anderer API-Keys betroffen sind (ein API-Key mit Benutzerlevel darf keine Objekte anderer API-Keys löschen. Ein API-Key mit Administratorlevel dürfte dies hingegen).
+
+Grundsätzlich kann man das Anlegen eines neuen API-Keys mit einem Identifikationsprozess verbinden (z.B. Emailverifikation). Wir gehen jedoch davon aus, dass die API überwiegen von vollautomatisierten Prozessen genutzt werden wird weshalb wir darauf verzichten.
+
+| URL                  | HTTP method | Description  | 
+| -------------------- |:-----------:| ------------ |
+| /api/apikey/      | GET         | Create new API-Key with Key :key |
+
+Rückgabe:
+{
+	"type": "apikey",
+	"api_rev": "1.0.0",
+	"apikey": "o7Wr0empW4giOe6gfowqjqp0jgg7wvBwM"
+}
+
+Daraufhin wird in der Datenbank ein neuer API-Key angelegt und dieser von der API zurückgeliefert. Die anfragende Applikation sollte diesen API-Key nun speichern und ihn bei allen nachfolgenden Interaktionen mit der API nutzen.
+
+Senden des API-Keys
+--------
+Es gibt verschiedene Methoden bei einem Request an die API den API-Key mitzuliefern:
+1. Nutzung einer Benutzer-ID in Verbindung mit der Signierung des Requests mittels API Key
+2. Übergabe per GET (URL)
+3. Übergabe per POST
+4. Übergabe http Authentication Header (http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth-13)
+
+Welche nutzen wir? TODO. Empfohlen wird der http authentication header. Wie geht man damit um?
+
 Knoten
 ------
 
@@ -53,4 +89,3 @@ Knoten
 | /api/router/:id      | DELETE      | Delete router doc with ID :id |
 | /api/routers_by_location/:bbox | GET | Get routers by geolocation bounding box :bbox |
 | /api/routers_by_alias | GET, POST | Get routers by alias |
-
