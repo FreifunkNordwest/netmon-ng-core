@@ -65,10 +65,10 @@ Bei Anforderung eines neuen API-Keys wird in der Datenbank ein neuer API-Key ang
 Senden des API-Keys
 --------
 Es gibt verschiedene Methoden bei einem Request an die API den API-Key mitzuliefern:
-# Nutzung einer Benutzer-ID in Verbindung mit der Signierung des Requests mittels API Key
-# Übergabe per GET (URL)
-# Übergabe per POST
-# Übergabe http Authentication Header (http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth-13)
+* Nutzung einer Benutzer-ID in Verbindung mit der Signierung des Requests mittels API Key
+* Übergabe per GET (URL)
+* Übergabe per POST
+* Übergabe http Authentication Header (http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth-13)
 
 Welche nutzen wir? TODO. Empfohlen wird der http authentication header. Wie geht man damit um?
 
