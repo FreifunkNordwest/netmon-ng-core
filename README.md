@@ -62,15 +62,21 @@ Grundsätzlich kann man das Anlegen eines neuen API-Keys mit einem Identifikatio
 
 Bei Anforderung eines neuen API-Keys wird in der Datenbank ein neuer API-Key angelegt und dieser von der API zurückgeliefert. Die anfragende Applikation sollte diesen API-Key nun speichern und ihn bei allen nachfolgenden Interaktionen mit der API nutzen.
 
-Senden des API-Keys
+Übermittlung des API-Keys an die API
 --------
 Es gibt verschiedene Methoden bei einem Request an die API den API-Key mitzuliefern:
-* Nutzung einer Benutzer-ID in Verbindung mit der Signierung des Requests mittels API Key
-* Übergabe per GET (URL)
+* Nutzung einer Benutzer-ID in Verbindung mit der Signierung des Requests mittels API Key (Amazon Cloud)
+* Oauth etc.
+* Übergabe per GET
 * Übergabe per POST
-* Übergabe http Authentication Header (http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth-13)
+* Übergabe per Authorization header (http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth-13#page-8)
 
-Welche nutzen wir? TODO. Empfohlen wird der http authentication header. Wie geht man damit um?
+Entwickelt werden soll eine Anwendung, die zwar gegen gängige Angriffe sicher ist, aber nicht höchsten Sicherheitsansprüchen genügen muss. Wir benötigen eine Methode die einfach und nach Möglichkeit ohne spezielle Bibliotheken auch auf den Routern selbst zu implementieren ist.
+
+Die Methoden mittels Signierung und Oauth etc. fallen daher raus. Sie sind vergleichsweise aufwendig zu implementieren und benötigen weitere Bibliotheken bei denen wir nicht davon ausgehen können, dass sie auf allen Systemen verfügbar sind. Die übergabe des API-Keys mittels GET in der URL wäre sehr einfach machbar, jedoch läuft diese Methode dem URL-Design einer REST-API zuwider. Außerdem sollte eine Web-API grundsätzlich auch per HTTPS abrufbar sein und in diesem Fall würde der API-Key als schützenswerter Parameter unverschlüsselt übertragen. Die übergabe per POST wäre zwar verschlüsselt, jedoch zerstören wir uns damit die klare unterscheidung zwischen GET, POST, PUT und DELETE Requests. Die Übergabe per http authorisation header erfolgt bei ssl verschlüsselt, stört keine REST-API Prinzipien, wird von allen gängigen Programmen unterstützt und ist extra für diesen Zweck vorgesehen.
+
+Beispiel mit Cur:
+curl -H "Authorization: apikey your_api_key_here" http://www.example.com
 
 Knoten
 ------
