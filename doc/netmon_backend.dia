@@ -68,7 +68,7 @@
         <dia:point val="-5.3175,5.5"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-5.3175,4.905;-5.3175,5.65"/>
+        <dia:rectangle val="-5.3175,4.905;-5.3175,5.6525"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -98,16 +98,16 @@
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="-30.7962,-7.95"/>
+        <dia:point val="-31.4931,-7.3"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-30.8462,-8;-24.2237,-4.4"/>
+        <dia:rectangle val="-31.5431,-7.35;-23.9268,-3.75"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-30.7962,-7.95"/>
+        <dia:point val="-31.4931,-7.3"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="6.5225"/>
+        <dia:real val="7.5162499999999994"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3.5000000000000004"/>
@@ -123,7 +123,7 @@
           <dia:attribute name="string">
             <dia:string>#Alfred
 (liefert daten
-in jason forman)#</dia:string>
+in JSON forman)#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -132,7 +132,7 @@ in jason forman)#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-27.5349,-6.805"/>
+            <dia:point val="-27.735,-6.155"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -192,13 +192,13 @@ in XML format)#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O3">
       <dia:attribute name="obj_pos">
-        <dia:point val="-30.0425,5.3"/>
+        <dia:point val="-30.1925,2.8"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-30.0925,5.25;-24.0775,8.85"/>
+        <dia:rectangle val="-30.2425,2.75;-24.2275,6.35"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-30.0425,5.3"/>
+        <dia:point val="-30.1925,2.8"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="5.9149999999999991"/>
@@ -226,7 +226,7 @@ in YX Format)#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-27.085,6.445"/>
+            <dia:point val="-27.235,3.945"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -239,16 +239,16 @@ in YX Format)#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O4">
       <dia:attribute name="obj_pos">
-        <dia:point val="-21.815,-6.9"/>
+        <dia:point val="-21.6655,-6.65"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-21.865,-6.95;-17.205,-4.95"/>
+        <dia:rectangle val="-21.7155,-6.7;-17.0545,-4.7"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-21.815,-6.9"/>
+        <dia:point val="-21.6655,-6.65"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="4.5599999999999996"/>
+        <dia:real val="4.5609374999999996"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="1.9000000000000004"/>
@@ -271,7 +271,7 @@ in YX Format)#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-19.535,-5.755"/>
+            <dia:point val="-19.385,-5.505"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -284,16 +284,16 @@ in YX Format)#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O5">
       <dia:attribute name="obj_pos">
-        <dia:point val="-22.87,-0.89"/>
+        <dia:point val="-21.7205,-1.54"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-22.92,-0.94;-18.26,1.06"/>
+        <dia:rectangle val="-21.7705,-1.59;-17.1095,0.41"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-22.87,-0.89"/>
+        <dia:point val="-21.7205,-1.54"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="4.5599999999999996"/>
+        <dia:real val="4.5609374999999996"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="1.9000000000000004"/>
@@ -316,7 +316,7 @@ in YX Format)#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-20.59,0.255"/>
+            <dia:point val="-19.44,-0.395"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -329,16 +329,16 @@ in YX Format)#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O6">
       <dia:attribute name="obj_pos">
-        <dia:point val="-21.855,4.37"/>
+        <dia:point val="-21.6555,3.57"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-21.905,4.32;-17.245,6.32"/>
+        <dia:rectangle val="-21.7055,3.52;-17.0445,5.52"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-21.855,4.37"/>
+        <dia:point val="-21.6555,3.57"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="4.5599999999999996"/>
+        <dia:real val="4.5609374999999996"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="1.9000000000000004"/>
@@ -361,7 +361,7 @@ in YX Format)#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-19.575,5.515"/>
+            <dia:point val="-19.375,4.715"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -374,16 +374,16 @@ in YX Format)#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O7">
       <dia:attribute name="obj_pos">
-        <dia:point val="8.81,-1.3"/>
+        <dia:point val="8.80938,-1.3"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.76,-1.35;13.2375,4.6"/>
+        <dia:rectangle val="8.75938,-1.35;13.2381,4.6"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="8.81,-1.3"/>
+        <dia:point val="8.80938,-1.3"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="4.3774999999999995"/>
+        <dia:real val="4.3787500000000001"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="5.8499999999999996"/>
@@ -420,13 +420,13 @@ array#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O8">
       <dia:attribute name="obj_pos">
-        <dia:point val="18.27,3.725"/>
+        <dia:point val="18.47,3.125"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="18.22,3.675;26.71,7.275"/>
+        <dia:rectangle val="18.42,3.075;26.91,6.675"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="18.27,3.725"/>
+        <dia:point val="18.47,3.125"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="8.3900000000000006"/>
@@ -454,7 +454,7 @@ exestieren#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="22.465,4.87"/>
+            <dia:point val="22.665,4.27"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -513,14 +513,14 @@ enthalten sind #</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O10">
       <dia:attribute name="obj_pos">
-        <dia:point val="22.495,7.27527"/>
+        <dia:point val="22.6431,6.67497"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.1885,7.22444;22.912,11.3128"/>
+        <dia:rectangle val="22.2332,6.62437;22.9568,11.3618"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="22.495,7.27527"/>
-        <dia:point val="22.5605,11.201"/>
+        <dia:point val="22.6431,6.67497"/>
+        <dia:point val="22.5876,11.25"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -536,7 +536,7 @@ enthalten sind #</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O8" connection="16"/>
-        <dia:connection handle="1" to="O9" connection="16"/>
+        <dia:connection handle="1" to="O9" connection="2"/>
       </dia:connections>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O11">
@@ -589,7 +589,7 @@ enthalten sind #</dia:string>
         <dia:point val="22.5875,12.825"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.5875,12.23;22.5875,12.975"/>
+        <dia:rectangle val="22.5875,12.23;22.5875,12.9775"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -740,16 +740,16 @@ enthalten sind #</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O16">
       <dia:attribute name="obj_pos">
-        <dia:point val="15.7313,19.525"/>
+        <dia:point val="15.6757,19.525"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="15.6813,19.475;29.6038,23.075"/>
+        <dia:rectangle val="15.6257,19.475;29.6594,23.075"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="15.7313,19.525"/>
+        <dia:point val="15.6757,19.525"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="13.8225"/>
+        <dia:real val="13.93375"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3.5000000000000004"/>
@@ -763,9 +763,9 @@ enthalten sind #</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#prüfen ob werte länger als x wochen in 
+            <dia:string>#Prüfen ob Werte länger als x Wochen in 
 Tabelle neu enthalten sind
-und überschreibe geänderte werte#</dia:string>
+und überschreibe geänderte Werte#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -860,16 +860,16 @@ und überschreibe geänderte werte#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O19">
       <dia:attribute name="obj_pos">
-        <dia:point val="25.8938,14.9"/>
+        <dia:point val="25.8575,14.9"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="25.8438,14.85;32.2863,16.85"/>
+        <dia:rectangle val="25.8075,14.85;32.3225,16.85"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="25.8938,14.9"/>
+        <dia:point val="25.8575,14.9"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="6.3424999999999994"/>
+        <dia:real val="6.4149999999999991"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="1.9000000000000001"/>
@@ -883,7 +883,7 @@ und überschreibe geänderte werte#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#wert counter +1#</dia:string>
+            <dia:string>#Wert counter +1#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -936,7 +936,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="22.6425,21.275"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.6425,20.68;22.6425,21.425"/>
+        <dia:rectangle val="22.6425,20.68;22.6425,21.4275"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -972,7 +972,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="22.6425,21.275"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.6425,20.68;22.6425,21.425"/>
+        <dia:rectangle val="22.6425,20.68;22.6425,21.4275"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1005,13 +1005,13 @@ und überschreibe geänderte werte#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O23">
       <dia:attribute name="obj_pos">
-        <dia:point val="29.602,21.4126"/>
+        <dia:point val="29.6576,21.4137"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.5511,21.215;38.6297,21.9384"/>
+        <dia:rectangle val="29.6067,21.215;38.6297,21.9384"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="29.602,21.4126"/>
+        <dia:point val="29.6576,21.4137"/>
         <dia:point val="38.518,21.5888"/>
       </dia:attribute>
       <dia:attribute name="numcp">
@@ -1036,7 +1036,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="22.6425,21.275"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.6425,20.68;22.6425,21.425"/>
+        <dia:rectangle val="22.6425,20.68;22.6425,21.4275"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1370,7 +1370,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="22.6425,21.275"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.5436,6.78745;48.6502,23.9899"/>
+        <dia:rectangle val="29.6004,6.78744;48.6699,24.0009"/>
       </dia:attribute>
       <dia:attribute name="bez_points">
         <dia:point val="22.6425,21.275"/>
@@ -1443,14 +1443,14 @@ und überschreibe geänderte werte#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O34">
       <dia:attribute name="obj_pos">
-        <dia:point val="26.7092,5.07772"/>
+        <dia:point val="26.9099,4.63902"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="26.6548,4.02325;34.9008,5.37051"/>
+        <dia:rectangle val="26.8572,3.87678;34.8987,4.96011"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="26.7092,5.07772"/>
-        <dia:point val="34.8464,4.31604"/>
+        <dia:point val="26.9099,4.63902"/>
+        <dia:point val="34.846,4.19786"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -1528,7 +1528,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="29.365,-6.25"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.365,-6.845;29.365,-6.1"/>
+        <dia:rectangle val="29.365,-6.845;29.365,-6.0975"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1558,16 +1558,16 @@ und überschreibe geänderte werte#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O37">
       <dia:attribute name="obj_pos">
-        <dia:point val="30.78,20.46"/>
+        <dia:point val="30.7438,20.46"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="30.73,20.41;37.1725,22.41"/>
+        <dia:rectangle val="30.6938,20.41;37.2087,22.41"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="30.78,20.46"/>
+        <dia:point val="30.7438,20.46"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="6.3424999999999994"/>
+        <dia:real val="6.4149999999999991"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="1.9000000000000001"/>
@@ -1581,7 +1581,7 @@ und überschreibe geänderte werte#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#wert counter +1#</dia:string>
+            <dia:string>#Wert counter +1#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -1606,7 +1606,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="19.775,2.3"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="19.775,1.705;19.775,2.45"/>
+        <dia:rectangle val="19.775,1.705;19.775,2.4525"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1639,7 +1639,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="19.3,2.55"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="19.3,1.955;19.3,2.7"/>
+        <dia:rectangle val="19.3,1.955;19.3,2.7025"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1672,7 +1672,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="19.775,2.3"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="19.775,1.705;19.775,2.45"/>
+        <dia:rectangle val="19.775,1.705;19.775,2.4525"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1705,7 +1705,7 @@ und überschreibe geänderte werte#</dia:string>
         <dia:point val="19.775,2.3"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="19.775,1.705;19.775,2.45"/>
+        <dia:rectangle val="19.775,1.705;19.775,2.4525"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1758,7 +1758,7 @@ und überschreibe geänderte werte#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Alle werte werden mit einem flag versehen 
+            <dia:string>#Alle Werte werden mit einem flag versehen 
 an den man erkennen kann von 
 welchen Crawler die Daten kommen
 Notwändig damit später erkant werden kann
@@ -1787,7 +1787,7 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
         <dia:point val="-5.15625,-0.25"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-5.15625,-0.845;-5.15625,-0.1"/>
+        <dia:rectangle val="-5.15625,-0.845;-5.15625,-0.0975"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1820,14 +1820,14 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O44">
       <dia:attribute name="obj_pos">
-        <dia:point val="13.1935,2.36191"/>
+        <dia:point val="13.2382,2.24886"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="13.1301,2.2986;18.3264,4.19837"/>
+        <dia:rectangle val="13.1766,2.18727;18.5282,3.8769"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="13.1935,2.36191"/>
-        <dia:point val="18.2204,4.04981"/>
+        <dia:point val="13.2382,2.24886"/>
+        <dia:point val="18.4205,3.69255"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -1851,11 +1851,11 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
         <dia:point val="4.4841,0.868889"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="4.42867,0.813458;8.87104,1.65402"/>
+        <dia:rectangle val="4.42867,0.813458;8.88534,1.65568"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="4.4841,0.868889"/>
-        <dia:point val="8.75998,1.36516"/>
+        <dia:point val="8.77428,1.36682"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -1879,7 +1879,7 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
         <dia:point val="-5.15625,-0.25"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-5.15625,-0.845;-5.15625,-0.1"/>
+        <dia:rectangle val="-5.15625,-0.845;-5.15625,-0.0975"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1912,14 +1912,14 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O47">
       <dia:attribute name="obj_pos">
-        <dia:point val="-24.2239,-6.09653"/>
+        <dia:point val="-23.9264,-5.61842"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-24.2755,-6.40352;-21.7523,-5.68027"/>
+        <dia:rectangle val="-23.9773,-6.00889;-21.6038,-5.2854"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="-24.2239,-6.09653"/>
-        <dia:point val="-21.8641,-6.02278"/>
+        <dia:point val="-23.9264,-5.61842"/>
+        <dia:point val="-21.7156,-5.65813"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -1940,14 +1940,14 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O48">
       <dia:attribute name="obj_pos">
-        <dia:point val="-24.1737,-0.219249"/>
+        <dia:point val="-24.1738,-0.503876"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-24.2274,-0.529808;-22.8087,0.191612"/>
+        <dia:rectangle val="-24.2247,-0.898215;-21.6587,-0.174728"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="-24.1737,-0.219249"/>
-        <dia:point val="-22.9201,-0.121569"/>
+        <dia:point val="-24.1738,-0.503876"/>
+        <dia:point val="-21.7705,-0.5476"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -1968,14 +1968,14 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O49">
       <dia:attribute name="obj_pos">
-        <dia:point val="-24.0776,6.35722"/>
+        <dia:point val="-24.2275,4.53852"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-24.1376,5.64138;-21.7955,6.41717"/>
+        <dia:rectangle val="-24.2777,4.16943;-21.5933,4.89303"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="-24.0776,6.35722"/>
-        <dia:point val="-21.9045,5.85661"/>
+        <dia:point val="-24.2275,4.53852"/>
+        <dia:point val="-21.7051,4.52889"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -1996,10 +1996,10 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O50">
       <dia:attribute name="obj_pos">
-        <dia:point val="-27.535,-6.2"/>
+        <dia:point val="-27.735,-5.55"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-27.535,-6.795;-27.535,-6.05"/>
+        <dia:rectangle val="-27.735,-6.145;-27.735,-5.3975"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2013,7 +2013,7 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-27.535,-6.2"/>
+            <dia:point val="-27.735,-5.55"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -2035,7 +2035,7 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
         <dia:point val="-27.135,-0.45"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-27.135,-1.045;-27.135,-0.3"/>
+        <dia:rectangle val="-27.135,-1.045;-27.135,-0.2975"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2068,10 +2068,10 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O52">
       <dia:attribute name="obj_pos">
-        <dia:point val="-27.085,7.05"/>
+        <dia:point val="-27.235,4.55"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-27.085,6.455;-27.085,7.2"/>
+        <dia:rectangle val="-27.235,3.955;-27.235,4.7025"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2085,7 +2085,7 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-27.085,7.05"/>
+            <dia:point val="-27.235,4.55"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -2104,14 +2104,14 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O53">
       <dia:attribute name="obj_pos">
-        <dia:point val="-17.2181,-5.03154"/>
+        <dia:point val="-17.0558,-4.80786"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-17.283,-5.09645;-11.6116,-2.73146"/>
+        <dia:rectangle val="-17.1204,-4.87243;-11.8405,-2.725"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="-17.2181,-5.03154"/>
-        <dia:point val="-11.7155,-2.85021"/>
+        <dia:point val="-17.0558,-4.80786"/>
+        <dia:point val="-11.945,-2.85026"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -2132,14 +2132,14 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O54">
       <dia:attribute name="obj_pos">
-        <dia:point val="-18.2604,0.0132086"/>
+        <dia:point val="-17.1096,-0.53453"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-18.3114,-0.405798;-14.6854,0.317662"/>
+        <dia:rectangle val="-17.1608,-0.855735;-14.685,-0.132333"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="-18.2604,0.0132086"/>
-        <dia:point val="-14.7972,-0.0563541"/>
+        <dia:point val="-17.1096,-0.53453"/>
+        <dia:point val="-14.7967,-0.479475"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -2160,14 +2160,14 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O55">
       <dia:attribute name="obj_pos">
-        <dia:point val="-17.2481,4.42113"/>
+        <dia:point val="-17.0448,3.7383"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-17.3128,2.22096;-11.7685,4.48579"/>
+        <dia:rectangle val="-17.1081,2.20116;-12.8001,3.8016"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="-17.2481,4.42113"/>
-        <dia:point val="-11.8728,2.34462"/>
+        <dia:point val="-17.0448,3.7383"/>
+        <dia:point val="-12.9061,2.34986"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -2191,7 +2191,7 @@ Welche daten gelöscht werden können und welche nicht#</dia:string>
         <dia:point val="1.94875,-8.875"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="1.94875,-9.47;1.94875,-8.725"/>
+        <dia:rectangle val="1.94875,-9.47;1.94875,-8.7225"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
